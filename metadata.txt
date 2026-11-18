@@ -1,0 +1,56 @@
+[general]
+name = Correction géométrique des polygones
+description = Detect and correct overlaps, inclusions, exact duplicates, and polygon tracing directions through visual inspection and validation reports.
+about = Polygon geometry checking and correction for QGIS 3.40+ and QGIS 4.x. Handles inclusions, partial overlaps and exact duplicates with grouping by attribute, cartographic review and optional correction. Produces GeoPackage exports and CSV reports. Includes geometry validity checks and repairs, ring orientation correction, and tracking of removed areas. Source data are not modified. The interface is in French; untranslated Qt translation templates are supplied for English, German, Spanish and Italian.
+
+version = 1.0.2
+qgisMinimumVersion = 3.40
+qgisMaximumVersion = 4.99
+author = François THEVAND
+email = francois.thevand@gmail.com
+category = Vector
+icon = icon.png
+tags = geometry,polygon,topology,overlaps,duplicates,validation,repair,vector
+experimental = True
+deprecated = False
+server = False
+hasProcessingProvider = False
+changelog = 1.0.2 - La fenêtre de révision des géométries regroupées (découpées) n'est désormais plus modale. L'identification, la navigation et la gestion de la visibilité des couches dans la zone de carte de QGIS restent accessibles pendant la révision ; le traitement attend une confirmation ou une annulation. 
+			1.0.1 - Vérification des chemins de code Qt5/Qt6 pour QGIS 3.40+ et 4.x ; sélection de `QgsField` via `QMetaType` rendue indépendante de la version de QGIS ; restauration de la déclaration des métadonnées pour la version 4 de QGIS. Une validation lors de l'exécution sous QGIS 4 reste nécessaire.
+			1.0.0 - Corrections de géométries polygonales, gestion des chevauchements et des doublons, révision assistée par carte, exportations conditionnelles, rapports au format CSV et modèles de traduction Qt.
+about[fr] = Vérification et correction de la géométrie des polygones pour QGIS 3.40+ et QGIS 4.x. Gère les inclusions, les chevauchements partiels et les doublons exacts avec regroupement par attribut, révision cartographique et correction facultative. Produit des exportations GeoPackage et des rapports CSV. Comprend les contrôles et les réparations de validité de la géométrie, la correction de l’orientation des anneaux et le suivi des zones supprimées. Les données sources ne sont pas modifiées. L'interface est en français ; des modèles de traduction Qt non traduits sont fournis pour l'anglais, l'allemand, l'espagnol et l'italien.
+	
+	Extension de contrôle et de correction géométrique des polygones. Détecte les inclusions, les chevauchements et les doublons exacts, permet une validation cartographique, et produit des GeoPackages ainsi que des rapports CSV. Inclut le contrôle et la réparation des géométries, le sens des anneaux et la traçabilité des surfaces supprimées. La couche source n'est pas modifiée. Les catalogues de traduction ne sont pas encore traduits.
+description[fr] = Détectez et corrigez les chevauchements, les inclusions et les doublons exacts des polygones grâce à un examen visuel et à des rapports de contrôle.
+tags[fr] = géométrie, polygone, topologie, chevauchements, doublons, validation, réparation, vecteur
+name[fr] = Correction géométrique des polygones
+about[en] = Polygon geometry checking and correction for QGIS 3.40+ and QGIS 4.x. Handles inclusions, partial overlaps and exact duplicates with grouping by attribute, cartographic review and optional correction. Produces GeoPackage exports and CSV reports. Includes geometry validity checks and repairs, ring orientation correction, and tracking of removed areas. Source data are not modified. The interface is in French; untranslated Qt translation templates are supplied for English, German, Spanish and Italian.
+	
+	Extension of control and geometric correction of polygons. Detects inclusions, overlaps and exact duplicates, enables map validation, and produces GeoPackages and CSV reports. Includes checking and repairing geometries, ring direction and traceability of removed surfaces. The source layer is not modified. The translation catalogs are not yet translated.
+description[en] = Detect and correct polygon overlaps, inclusions and exact duplicates with visual review and control reports.
+tags[en] = geometry,polygon,topology,overlaps,duplicates,validation,repair,vector
+name[en] = Geometric correction of polygons
+about[es] = Comprobación y corrección de geometría de polígonos para QGIS 3.40+ y QGIS 4.x. Maneja inclusiones, superposiciones parciales y duplicados exactos con agrupación por atributo, revisión cartográfica y corrección opcional. Produce exportaciones de GeoPackage e informes CSV. Incluye comprobaciones y reparaciones de la validez de la geometría, corrección de la orientación del anillo y seguimiento de las áreas eliminadas. Los datos de origen no se modifican. La interfaz está en francés; Se suministran plantillas de traducción Qt sin traducir para inglés, alemán, español e italiano.
+	
+	Ampliación de control y corrección geométrica de polígonos. Detecta inclusiones, superposiciones y duplicados exactos, permite la validación de mapas y produce GeoPackages e informes CSV. Incluye verificación y reparación de geometrías, dirección de anillos y trazabilidad de superficies removidas. La capa de origen no se modifica. Los catálogos de traducción aún no están traducidos.
+description[es] = Detecte y corrija superposiciones, inclusiones y duplicados exactos de polígonos con informes de control y revisión visual.
+tags[es] = geometría,polígono,topología,superposiciones,duplicados,validación,reparación,vector
+name[es] = Corrección geométrica de polígonos.
+about[pt] = Verificação e correção de geometria poligonal para QGIS 3.40+ e QGIS 4.x. Lida com inclusões, sobreposições parciais e duplicatas exatas com agrupamento por atributo, revisão cartográfica e correção opcional. Produz exportações GeoPackage e relatórios CSV. Inclui verificações e reparos de validade de geometria, correção de orientação de anel e rastreamento de áreas removidas. Os dados de origem não são modificados. A interface está em francês; modelos de tradução Qt não traduzidos são fornecidos para inglês, alemão, espanhol e italiano.
+	
+	Extensão de controle e correção geométrica de polígonos. Detecta inclusões, sobreposições e duplicatas exatas, permite a validação de mapas e produz relatórios GeoPackages e CSV. Inclui verificação e reparo de geometrias, direção do anel e rastreabilidade de superfícies removidas. A camada de origem não é modificada. Os catálogos de tradução ainda não foram traduzidos.
+description[pt] = Detecte e corrija sobreposições de polígonos, inclusões e duplicatas exatas com revisão visual e relatórios de controle.
+tags[pt] = geometria, polígono, topologia, sobreposições, duplicatas, validação, reparo, vetor
+name[pt] = Correção geométrica de polígonos
+about[it] = Controllo e correzione della geometria dei poligoni per QGIS 3.40+ e QGIS 4.x. Gestisce inclusioni, sovrapposizioni parziali e duplicati esatti con raggruppamento per attributo, revisione cartografica e correzione opzionale. Produce esportazioni GeoPackage e report CSV. Include controlli e riparazioni della validità della geometria, correzione dell'orientamento dell'anello e tracciamento delle aree rimosse. I dati di origine non vengono modificati. L'interfaccia è in francese; Vengono forniti modelli di traduzione Qt non tradotti per inglese, tedesco, spagnolo e italiano.
+	
+	Estensione del controllo e correzione geometrica dei poligoni. Rileva inclusioni, sovrapposizioni e duplicati esatti, consente la convalida della mappa e produce GeoPackage e report CSV. Include il controllo e la riparazione delle geometrie, della direzione dell'anello e della tracciabilità delle superfici rimosse. Il livello di origine non viene modificato. I cataloghi di traduzione non sono ancora tradotti.
+description[it] = Rileva e correggi sovrapposizioni di poligoni, inclusioni e duplicati esatti con revisione visiva e report di controllo.
+tags[it] = geometria,poligono,topologia,sovrapposizioni,duplicati,convalida,riparazione,vettore
+name[it] = Correzione geometrica dei poligoni
+about[de] = Überprüfung und Korrektur der Polygongeometrie für QGIS 3.40+ und QGIS 4.x. Behandelt Einschlüsse, teilweise Überlappungen und exakte Duplikate mit Gruppierung nach Attribut, kartografischer Überprüfung und optionaler Korrektur. Erstellt GeoPackage-Exporte und CSV-Berichte. Beinhaltet Gültigkeitsprüfungen und Reparaturen der Geometrie, Korrektur der Ringausrichtung und Verfolgung entfernter Bereiche. Quelldaten werden nicht verändert. Die Benutzeroberfläche ist auf Französisch; Unübersetzte Qt-Übersetzungsvorlagen werden für Englisch, Deutsch, Spanisch und Italienisch bereitgestellt.
+	
+	Erweiterung der Kontrolle und geometrischen Korrektur von Polygonen. Erkennt Einschlüsse, Überlappungen und exakte Duplikate, ermöglicht die Kartenvalidierung und erstellt GeoPackages und CSV-Berichte. Beinhaltet die Prüfung und Reparatur von Geometrien, Ringrichtung und Rückverfolgbarkeit entfernter Oberflächen. Die Quellebene wird nicht geändert. Die Übersetzungskataloge sind noch nicht übersetzt.
+description[de] = Erkennen und korrigieren Sie Polygonüberlappungen, Einschlüsse und exakte Duplikate mit visuellen Überprüfungs- und Kontrollberichten.
+tags[de] = Geometrie,Polygon,Topologie,Überlappungen,Duplikate,Validierung,Reparatur,Vektor
+name[de] = Geometrische Korrektur von Polygonen
